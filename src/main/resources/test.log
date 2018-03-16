@@ -1,0 +1,22 @@
+22.10.17 15:18:38 AUTSTART01  204 0 DB:    ------ ------ ----------- ----------- ---- ---------------- -------- ------
+22.10.17 15:18:38 AUTSTART01  204 0 DB:    64     1      1131151075  0           TAB                   IS       GRANT
+22.10.17 15:18:38 AUTSTART01 1808 0 MEMORY Actual memory usage:
+ Process              ( PID) Workingset Pagefile Starttime           Priority Commandline
+ Autstart             (17D0)  53480 KB  39928 KB 2017.10.22 14:43:30 Normal   AUTSTART.EXE 1 1
+ conhost              (1258)   3088 KB   1220 KB 2017.10.22 14:42:39 Normal   \??\C:\Windows\system32\conhost.exe "2221247771817633434628381290427868185-15413756891311541023-2028566733-387689503
+22.10.17 15:18:38 EF38       1A9C 0 DB:    52     5      194099732   0           TAB                   IX       GRANT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    52     5      194099732   1           PAG  1:71207          IX       GRANT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    52     5      194099732   1           KEY  (cd076b836f67)   X        WAIT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    61     5      194099732   1           PAG  1:71207          IX       GRANT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    61     5      194099732   0           TAB                   IX       GRANT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    61     1      1131151075  0           TAB                   IS       GRANT
+22.10.17 15:18:38 EF38       1A9C 0 DB:    90     5      194099732   0           TAB                   IX       GRANT
+22.10.17 15:18:40 EF38       1A9C 0 DB:    90     5      194099732   0           TAB                   IX       GRANT
+22.10.17 15:18:41 EF38       1A9C 0 DB:    90     5      194099732   0           TAB                   IX       GRANT
+22.10.17 15:18:44 EF38       1A9C 0 DB:    90     5      194099733   0           TAB                   IX       GRANT
+22.10.17 15:18:45 EF38       1A9C 0 DB:    90     5      194099733   0           TAB                   IX       GRANT
+ csrss                (0188)   4732 KB   2280 KB 2017.10.22 14:40:11 Normal   $SystemRoot$\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+ csrss                (01C8)   8052 KB   2380 KB 2017.10.22 14:40:15 Normal   $SystemRoot$\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+ Deskmenu             (0FE8)   3988 KB   1092 KB 2017.10.22 14:42:35 Normal   "C:\Program Files (x86)\Skidata\Parking\Tools\Deskmenu.exe" 
+ dfsrs                (0D14)  17932 KB  16092 KB 2017.10.22 14:40:50 Normal   C:\Windows\system32\DFSRs.exe
+ dfssvc               (0CE0)   7028 DB:    3396 KB 2017.10.22 14:40:49 Normal   C:\Windows\system32\dfssvc.exe
