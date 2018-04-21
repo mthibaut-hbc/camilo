@@ -25,7 +25,9 @@ public class TraceJob implements Job {
 	}
 	
 	
-	
+	public static void main(String[] args) {
+		new TraceJob().inItProcess();
+	}
 	public void inItProcess() {
 		
 		File file = new File("resource/trace.properties");

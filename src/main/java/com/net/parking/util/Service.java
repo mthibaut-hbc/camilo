@@ -3,6 +3,9 @@ package com.net.parking.util;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.StringTokenizer;
 import com.net.parking.dao.util.DaoUtil;
 import com.net.parking.entity.TraceInfo;
@@ -35,7 +38,15 @@ public class Service {
 					timestamp = getTimestamp(sCurrentLine);
 					
 					if (traceInfoDBLog != null) {
-						if ( ( traceInfoDBLog.getTime().compareTo(timestamp) ) < 0 ) {
+						Date date1 = null, date2 = null;
+						try {
+							date1 = new SimpleDateFormat("dd.mm.yy HH:mm:ss", Locale.ENGLISH).parse(traceInfoDBLog.getTime().trim());
+						}catch(Exception exception) {	exception.getMessage();	}
+						try {
+							date2 = new SimpleDateFormat("dd.mm.yy HH:mm:ss", Locale.ENGLISH).parse(timestamp.trim());
+						}catch(Exception exception) {	exception.getMessage();	}
+						if (date1 != null & date2 != null)
+						if (date1.before(date2)) {
 							System.out.println("***************************************************************");
 							System.out.println("********************* NEW RECORD FOUND : *********************");
 							System.out.println("***************************************************************");
